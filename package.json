@@ -1,0 +1,25 @@
+{
+    "type": "module",
+    "name": "kanvaz-node-server-app",
+    "version": "1.0.0",
+    "description": "Node.js HTTP Web server for the Kanvaz application",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vinayjawadagi/kanvaz-node-server-web-app.git"
+    },
+    "author": "vinay jawadagi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vinayjawadagi/kanvaz-node-server-web-app/issues"
+    },
+    "homepage": "https://github.com/vinayjawadagi/kanvaz-node-server-web-app#readme",
+    "dependencies": {
+        "express": "^4.21.2",
+        "uuid": "^11.1.0"
+    }
+}
